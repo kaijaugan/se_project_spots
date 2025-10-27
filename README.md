@@ -2,6 +2,11 @@
 
 ### Overview  
 
+ ## Project Pitch Video
+ 
+ Check out [this video](https://drive.google.com/file/d/1hF9Q4EbikHfBikkqjKN0UDuHlmenFAWu/view?usp=drive_link), where I describe my 
+ project and some challenges I faced while building it.
+
 * Intro  
 * Figma  
 * Images  
