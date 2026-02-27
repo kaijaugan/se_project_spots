@@ -17,6 +17,7 @@
 
 .modal_is-opened {
     visibility: visible;
+    opacity: 1;
 }
 
 .modal__container {
@@ -67,6 +68,10 @@
     font-weight: 500;
     font-size: 20px;
 
+    position: absolute;
+    left: 0;
+    top:calc(100% + 10px);
+
     width: fit-content;
     height: fit-content;
 
@@ -74,6 +79,7 @@
     color: white;
 
     padding: 4px 8px;
+    border-radius: 4px;
 }
 
 .modal__close-btn:hover {

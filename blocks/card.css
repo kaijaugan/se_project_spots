@@ -28,6 +28,7 @@
     object-fit: cover;
     margin-bottom: 12px;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .card__delete-button {
@@ -40,6 +41,7 @@
     position: absolute;
     top: 32px;
     right: 10px;
+    cursor: pointer;
 }
 
 .card__delete-button:hover {
@@ -59,7 +61,8 @@
     height: 20px;
     border: none;
     background-color: transparent;
-    opacity: 40%;
+    opacity: 0.4;
+    cursor: pointer;
 }
 
 .card__like-btn:hover {
@@ -75,9 +78,6 @@
     opacity: 0.4;
 }
 
-.card__like-btn:hover {
-    opacity: 1;
-}
 
 @media screen and (max-width: 627px) {
     .card__image {
