@@ -48,13 +48,16 @@
     color: #212121;
     border: none;
     cursor: pointer;
+    display: flex;
+    gap: 8px;
 }
 
 .profile__new-post-btn {
+    margin-top: auto;
     margin-left: auto;
     gap: 8px;
     background-color: #212121;
-    color: white;
+    color: #fcf5e5;
     border-radius: 10px;
     height: 52px;
     width: 149px;
@@ -85,6 +88,11 @@
         width: 80px;
     }
 
+    .profile__new-post-btn {
+        margin: 0;
+        width: 100%;
+    }
+
     .profile__name {
         font-size: 20px;
         margin: 0 0 6px;
@@ -98,6 +106,7 @@
 
     .profile__column {
         margin: 0 0 20px;
+        align-items: center;
     }
 
 }
