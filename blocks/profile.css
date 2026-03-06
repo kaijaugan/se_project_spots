@@ -53,6 +53,7 @@
 }
 
 .profile__new-post-btn {
+    border: none;
     margin-top: auto;
     margin-left: auto;
     gap: 8px;

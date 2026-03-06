@@ -132,7 +132,7 @@ addCardFormEl.addEventListener("submit", function (evt) {
     const cardElement = getCardElement(inputValues);
     cardsList.prepend(cardElement);
     closeModal(addCardModal);
-    addCardFormEl.requestFullscreen();
+    addCardFormEl.reset();
 });
 
 initialCards.forEach(function (item){
