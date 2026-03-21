@@ -11,7 +11,7 @@
 
  ## Project Pitch Video
  
- Check out [this video](https://drive.google.com/file/d/1hF9Q4EbikHfBikkqjKN0UDuHlmenFAWu/view?usp=drive_link), where I describe my 
+ Check out [this video](https://www.loom.com/share/0a0196d096f74d419a2efd0263d455d0), where I describe my 
  project and some challenges I faced while building it.
 
 * Intro  

@@ -1,3 +1,5 @@
+// TODO - pass settings object to the validation functinos that are called in this file
+
 const initialCards = [
     {
         name: "Golden Gate Bridge",
@@ -42,6 +44,7 @@ const descriptionInputEl = editFormEl.querySelector("#profile-description-input"
 
 const addCardModal = document.querySelector("#new-post-modal");
 const addCardFormEl = addCardModal.querySelector(".modal__form");
+const cardSubmitBtn = addCardModal.querySelector(".modal__submit-btn");
 const addCardCloseBtn = addCardModal.querySelector(".modal__close-btn");
 const captionInputEl = addCardFormEl.querySelector("#card-caption-input");
 const linkInputEl = addCardFormEl.querySelector("#card-image-input");
@@ -132,8 +135,9 @@ addCardFormEl.addEventListener("submit", function (evt) {
     };
     const cardElement = getCardElement(inputValues);
     cardsList.prepend(cardElement);
-    closeModal(addCardModal);
     addCardFormEl.reset();
+    disableButton(cardSubmitBtn, settings);
+    closeModal(addCardModal);
 });
 
 initialCards.forEach(function (item){

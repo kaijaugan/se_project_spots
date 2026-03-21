@@ -111,7 +111,8 @@
 .modal__label {
     font-weight: 400;
     color: rgba(33, 33, 33, 0.7);
-    margin: 0 0 16px;
+    margin-bottom: 32px;
+    display: block;
 }
 
 .modal__input {
@@ -123,8 +124,9 @@
     font-size: 20px;              
     border-radius: 8px;           
     padding: 16px 12px;           
-    margin: 8px 0 32px;   
+    margin: 8px 0 0;   
 }
+
 
 .modal__input:focus {
     outline: none;
@@ -133,6 +135,21 @@
 
 .modal__input::placeholder {
     color: #2121214d;
+}
+
+.modal__input:hover {
+    border: 1px solid rgb(33, 33, 33);
+}
+
+.modal__input_type_error {
+    border: 1px solid rgba(255, 0, 0, 0.6);
+}
+
+.modal__error {
+    display: block;
+    margin-top: 8px;
+    /* TODO - use correct color and font sizes */
+    color: red;
 }
 
 .modal__submit-btn {
@@ -152,6 +169,10 @@
     opacity: 0.8;
 }
 
+.modal__submit-btn_disabled {
+    background-color: #b0b0b0;
+    cursor: not-allowed;
+}
 
 @media screen and (max-width: 627px) {
     .modal {
