@@ -187,7 +187,7 @@
     }
 
     .modal__submit-btn {
-        width: unset;
+        max-width: unset;
     }
 
     .modal__close-btn {
